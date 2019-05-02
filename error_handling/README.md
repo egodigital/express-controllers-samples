@@ -1,6 +1,6 @@
-# express-controllers-samples :: Serialize
+# express-controllers-samples :: Error handling
 
-Shows, how to use serializers.
+Demonstrates, how to implement custom error handling.
 
 ## Build and run
 
