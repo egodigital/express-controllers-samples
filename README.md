@@ -1,2 +1,9 @@
 # express-controllers-samples
-Samples for @egodigital/express-controllers
+
+Samples, which are show, how to use [@egodigital/express-controllers](https://github.com/egodigital/express-controllers) module.
+
+## Samples
+
+| Name | Description |
+|---|---|
+| [Quick start](./quick_start) | A quick start sample. |
