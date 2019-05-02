@@ -1,7 +1,7 @@
 {
   "name": "egodigital_express_controllers_serialize",
   "version": "1.0.0",
-  "description": "",
+  "description": "Shows, how to use serializers.",
   "main": "out/index.js",
   "scripts": {
     "build": "tsc",
