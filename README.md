@@ -1,6 +1,6 @@
 # express-controllers-samples
 
-Samples, which are show, how to use [@egodigital/express-controllers](https://github.com/egodigital/express-controllers) module.
+Samples, which are show, how to use [@egodigital/express-controllers](https://www.npmjs.com/package/@egodigital/express-controllers) module.
 
 ## Samples
 
