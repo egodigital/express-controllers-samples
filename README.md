@@ -1,3 +1,5 @@
+[![npm](https://img.shields.io/npm/v/@egodigital/express-controllers.svg)](https://www.npmjs.com/package/@egodigital/express-controllers)
+
 # express-controllers-samples
 
 Samples, which are show, how to use [@egodigital/express-controllers](https://www.npmjs.com/package/@egodigital/express-controllers) module.
