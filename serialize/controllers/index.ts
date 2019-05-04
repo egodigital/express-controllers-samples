@@ -10,7 +10,7 @@ export class Controller extends ControllerBase {
     // serialize the results of any
     // controller route method and
     // send each as response
-    public __serialize(context: ResponseSerializerContext) {
+    public async __serialize(context: ResponseSerializerContext) {
         return context.response
             .header('Content-Type', 'application/json')
             .send(JSON.stringify(

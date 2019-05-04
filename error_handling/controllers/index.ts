@@ -8,7 +8,7 @@ import { ControllerBase, GET, RequestErrorHandlerContext } from '@egodigital/exp
  */
 export class Controller extends ControllerBase {
     // handle exceptions
-    public __error(context: RequestErrorHandlerContext) {
+    public async __error(context: RequestErrorHandlerContext) {
         return context.response
             .status(500)
             .send('SERVER ERROR: ' + context.error);
