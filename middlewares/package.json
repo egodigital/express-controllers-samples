@@ -10,7 +10,7 @@
   "author": "e.GO Digital GmbH, Aachen, Germany",
   "license": "MIT",
   "dependencies": {
-    "@egodigital/express-controllers": "^1.1.1",
+    "@egodigital/express-controllers": "^1.2.0",
     "@types/express": "^4.16.1",
     "@types/node": "8.10.30",
     "express": "^4.16.4"
