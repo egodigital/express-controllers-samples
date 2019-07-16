@@ -12,5 +12,6 @@ Samples, which are show, how to use [@egodigital/express-controllers](https://ww
 | [Error handling](./error_handling) | Demonstrates, how to implement custom error handling. |
 | [Middlewares](./middlewares) | How to implement controller-wide middleware(s). |
 | [Serialize](./serialize) | Shows, how to use serializers. |
+| [Authorize](./authorize) | Shows the use of `@Authorize()` decorator. |
 | [TODO list](./todo_list) | A TODO list. |
 | [Value list](./value_list) | A value list. |

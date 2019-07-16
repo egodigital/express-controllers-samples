@@ -1,7 +1,7 @@
 {
-  "name": "egodigital_express_controllers_quick_start",
+  "name": "egodigital_express_controllers_authorize",
   "version": "1.0.0",
-  "description": "A quick start sample.",
+  "description": "An example API that shows authorization.",
   "main": "out/index.js",
   "scripts": {
     "build": "tsc",
