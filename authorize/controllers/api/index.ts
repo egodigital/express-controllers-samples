@@ -92,7 +92,7 @@ export class Controller extends ControllerBase {
 
 
     /**
-     * [GET]  /:user_id/a
+     * [GET]  /api/:user_id/a
      */
     @Authorize('a')
     @GET('/:user_id/a')
@@ -101,7 +101,7 @@ export class Controller extends ControllerBase {
     }
 
     /**
-     * [GET]  /:user_id/b
+     * [GET]  /api/:user_id/b
      */
     @Authorize('b')
     @GET('/:user_id/b')
@@ -110,7 +110,7 @@ export class Controller extends ControllerBase {
     }
 
     /**
-     * [GET]  /:user_id/c
+     * [GET]  /api/:user_id/c
      */
     @Authorize('c')
     @GET('/:user_id/c')
