@@ -44,7 +44,7 @@ const ALL_USERS: IUser[] = [
 /**
  * /controllers/api/index.ts
  *
- * Base path: '/api/index'
+ * Base path: '/api'
  */
 export class Controller extends ControllerBase {
     // check if authorized
