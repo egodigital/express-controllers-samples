@@ -13,5 +13,6 @@ Samples, which are show, how to use [@egodigital/express-controllers](https://ww
 | [Middlewares](./middlewares) | How to implement controller-wide middleware(s). |
 | [Serialize](./serialize) | Shows, how to use serializers. |
 | [Authorize](./authorize) | Shows the use of `@Authorize()` decorator. |
+| [Swagger](./swagger) | [Swagger](https://swagger.io/) example. |
 | [TODO list](./todo_list) | A TODO list. |
 | [Value list](./value_list) | A value list. |
