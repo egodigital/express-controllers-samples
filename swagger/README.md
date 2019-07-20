@@ -77,6 +77,7 @@ export class Controller extends ControllerBase {
      * [GET]  /api
      */
     @GET()
+    // s. https://swagger.io/docs/specification/2-0/paths-and-operations/
     @Swagger({
         "tags": [
             "test"
