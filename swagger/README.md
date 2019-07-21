@@ -22,6 +22,7 @@ initControllers({
     app,
     cwd: __dirname + '/controllers',
     swagger: {
+        // s. https://swagger.io/docs/specification/2-0/describing-responses/
         definitions: {
             'SuccessResponse': {
                 "type": "object",
