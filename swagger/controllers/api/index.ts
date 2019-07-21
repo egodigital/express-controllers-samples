@@ -1,6 +1,21 @@
 import { Request, Response } from 'express';
 import { ControllerBase, GET, Swagger, SwaggerPathDefinitionUpdaterContext } from '@egodigital/express-controllers';
 
+
+// update each path definition with default values (s. below)
+function pathDefinitionUpdater(ctx: SwaggerPathDefinitionUpdaterContext) {
+    // Bad Request
+    ctx.definition['responses']['400'] = {
+        "description": "Bad request!"
+    };
+
+    // Internal Server Error
+    ctx.definition['responses']['500'] = {
+        "description": "Operation was failed!"
+    };
+}
+
+
 /**
  * /controllers/api/index.ts
  *
@@ -43,18 +58,4 @@ export class Controller extends ControllerBase {
             data: 'Swagger test: OK',
         });
     }
-}
-
-
-// update each path definition with default values
-function pathDefinitionUpdater(ctx: SwaggerPathDefinitionUpdaterContext) {
-    // Bad Request
-    ctx.definition['responses']['400'] = {
-        "description": "Bad request!"
-    };
-
-    // Internal Server Error
-    ctx.definition['responses']['500'] = {
-        "description": "Operation was failed!"
-    };
 }
