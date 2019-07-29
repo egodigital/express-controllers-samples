@@ -6,6 +6,8 @@ const app = express();
 initControllers({
     app,
     cwd: __dirname + '/controllers',
+    // set "swagger" key to false, if you want to disable Swagger generation
+    // e.g. for production environment
     swagger: {
         // s. https://swagger.io/docs/specification/2-0/describing-responses/
         definitions: {
