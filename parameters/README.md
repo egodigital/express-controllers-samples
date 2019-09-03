@@ -10,7 +10,7 @@ npm start
 
 ## Example
 
-[/controllers/api/@user_id/index.ts](./controllers/api/@user_id/index.ts):
+[/controllers/api/users/@user_id/index.ts](./controllers/api/@user_id/index.ts):
 
 ```typescript
 import { Request, Response } from 'express';
