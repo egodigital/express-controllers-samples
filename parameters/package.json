@@ -1,7 +1,7 @@
 {
   "name": "egodigital_express_controllers_parameters",
   "version": "1.0.0",
-  "description": "An example API, that shows categorize endpoints via parameters.",
+  "description": "Example API, that shows how to categorize endpoints via parameters.",
   "main": "out/index.js",
   "scripts": {
     "build": "tsc",

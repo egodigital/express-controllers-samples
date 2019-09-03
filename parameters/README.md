@@ -1,6 +1,6 @@
 # express-controllers-samples :: Authorize
 
-An example API, that shows categorize endpoints via parameters.
+Example API, that shows how to categorize endpoints via parameters.
 
 ## Build and run
 
