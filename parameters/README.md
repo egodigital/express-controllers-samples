@@ -52,7 +52,7 @@ export class Controller extends ControllerBase {
     public async index(req: Request, res: Response) {
         const USER_ID = parseInt(req.params['user_id'].trim());
 
-        const USER = ALL_USERS[USER_ID];
+        const USER = ALL_USERS[USER_ID - 1];
         if (USER) {
             return res.json(USER);
         }
