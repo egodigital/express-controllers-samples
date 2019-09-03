@@ -14,5 +14,6 @@ Samples, which are show, how to use [@egodigital/express-controllers](https://ww
 | [Serialize](./serialize) | Shows, how to use serializers. |
 | [Authorize](./authorize) | Shows the use of `@Authorize()` decorator. |
 | [Swagger](./swagger) | [Swagger](https://swagger.io/) example. |
+| [Parameters](./parameters) | An example API, that shows categorize endpoints via parameters. |
 | [TODO list](./todo_list) | A TODO list. |
 | [Value list](./value_list) | A value list. |
