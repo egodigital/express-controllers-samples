@@ -14,9 +14,8 @@ npm start
 
 ```typescript
 import * as _ from 'lodash';
-import * as joi from 'joi';
 import { Request, Response } from 'express';
-import { ControllerBase, DELETE, GET, POST, PUT } from '@egodigital/express-controllers';
+import { ControllerBase, DELETE, GET, POST, PUT, schema } from '@egodigital/express-controllers';
 
 
 interface NewTodoItem {
@@ -38,14 +37,14 @@ interface UpdateTodoItem {
 let todoItemList: TodoItem[] = [];
 let nextId = 0;
 
-const NEW_TODO_ITEM_SCHEMA = joi.object({
-    subject: joi.string()
+const NEW_TODO_ITEM_SCHEMA = schema.object({
+    subject: schema.string()
         .trim()
         .required(),
 });
 
-const UPDATE_TODO_ITEM_SCHEMA = joi.object({
-    subject: joi.string()
+const UPDATE_TODO_ITEM_SCHEMA = schema.object({
+    subject: schema.string()
         .trim()
         .optional(),
 });

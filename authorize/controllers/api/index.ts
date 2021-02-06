@@ -84,10 +84,6 @@ export class Controller extends ControllerBase {
                     .status(404)
                     .send();
         }
-
-        return context.response
-            .status(403)
-            .send('Requires at least: "' + context.resources.join(', ') + '"');
     }
 
 

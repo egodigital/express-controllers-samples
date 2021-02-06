@@ -13,9 +13,8 @@ npm start
 [/controllers/index.ts](./controllers/index.ts):
 
 ```typescript
-import * as joi from 'joi';
 import { Request, Response } from 'express';
-import { ControllerBase, GET, POST } from '@egodigital/express-controllers';
+import { ControllerBase, GET, POST, schema } from '@egodigital/express-controllers';
 
 interface INewUser {
     email?: string;
@@ -23,13 +22,13 @@ interface INewUser {
     username: string;
 }
 
-const NEW_USER_SCHEMA = joi.object({
-    email: joi.string()
+const NEW_USER_SCHEMA = schema.object({
+    email: schema.string()
         .optional(),
-    password: joi.string()
+    password: schema.string()
         .min(1)
         .required(),
-    username: joi.string()
+    username: schema.string()
         .required(),
 });
 
